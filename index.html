@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+</head>
+<body>
+    <header>
+        <div>
+            <button class="hamburger">
+                <img src="../images/menu.svg" alt="" class="header-menu-icon">
+            </button>
+        </div>
+        <div>
+            <img src="../images/listo_logo.png" alt="" class="header-image">
+        </div>
+        <div>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </header>
+    <main>
+        <div class="sidebar">
+            <div class="home">
+                <h2>Home</h2>
+                <div class="sub-title selected" id="all-title">
+                    <img src="../images/flag.svg" alt="" class="home-svg">
+                    All Tasks
+                </div>
+                <div class="sub-title" id="today-title">
+                    <img src="../images/calendar2.svg" alt="" class="home-svg">
+                    Today's Tasks
+                </div>
+                <div class="sub-title" id="week-title">
+                    <img src="../images/calendar.svg" alt="" class="home-svg">
+                    This Week's Tasks
+                </div>
+                <div class="sub-title" id="important-title">
+                    <img src="../images/star.svg" alt="" class="home-svg">
+                    Important Tasks
+                </div>
+            </div>
+            <div class="projects">
+                <h2>Projects</h2>
+                <div class="projects-list">
+                    
+                </div>
+
+                <form action="" class="new-project-form">
+                    <div class="form-div sub-title hidden">
+                    
+                            <div>
+                                <img src="../images/project-menu.svg" alt="" class="home-svg">
+                                <input type="text" name="name" id="name" placeholder="Enter Project Name">
+                            </div>
+                            
+                            <div class="form-buttons-div">
+                                <button class="form-buton" id="add-button">Add</button>
+                                <button class="form-buton" id="cancel-button">Cancel</button> 
+                            </div>  
+
+                    </div>
+                </form>
+
+                <div class="new-project-div sub-title" id="add-project">
+                    <img src="../images/plus.svg" alt="" class="plus-svg">
+                    Add Project
+                    </button>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="content">
+            <div class="task-container">
+                
+            </div>
+            
+        </div>
+        
+    </main>
+    
+    <script src="bundle.js"></script>
+</body>
+</html>
