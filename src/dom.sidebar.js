@@ -4,8 +4,8 @@ import { createMainToday } from "./dom.main.today";
 import { createMainWeek } from "./dom.main.week";
 import { createMainImportant } from "./dom.main.important";
 import { projectFactory, addToProjects } from "./projects.module.js"
-import MenuIcon from '../images/project-menu.svg';
-import VerticalDots from '../images/dots-vertical.svg';
+import MenuIcon from './images/project-menu.svg';
+import VerticalDots from './images/dots-vertical.svg';
 import {applyDataIndex, createMainProject, createTaskItem} from './dom.main.project.js';
 import { isToday } from "./sort.module";
 import {isThisWeek} from 'date-fns';

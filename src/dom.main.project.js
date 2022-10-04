@@ -1,10 +1,10 @@
-import PlusIcon from '../images/plus.svg';
+import PlusIcon from './images/plus.svg';
 // import StarIcon from '../images/star-svgrepo-com.svg';
-import StarIcon from '../images/important-star.svg';
-import FilledStarIcon from '../images/filled.svg';
-import VerticalDots from '../images/dots-vertical.svg';
-import CheckMark from '../images/checkmark.svg';
-import Minus from '../images/minus.svg';
+import StarIcon from './images/important-star.svg';
+import FilledStarIcon from './images/filled.svg';
+import VerticalDots from './images/dots-vertical.svg';
+import CheckMark from './images/checkmark.svg';
+import Minus from './images/minus.svg';
 import projectFactory from './projects.module.js';
 import {mainObject} from './global.module.js';
 import {formDataStore} from './dom.sidebar.js';
